@@ -2,7 +2,7 @@ name: php-8.2-publish
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   publish:
     runs-on: ubuntu-latest
